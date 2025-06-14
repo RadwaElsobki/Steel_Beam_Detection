@@ -13,6 +13,17 @@ This project explores methods for detecting steel beams on construction sites to
 - `output/`: Output images and results from different model trials.
 - `GroundingDINO_SAM_trial/`: Trials involving GroundingDINO, SAM, and other models.
 
+## YOLOv8 Test Run Output
+
+Here is an example of YOLOv8 detecting steel beams on the construction site:
+
+![YOLOv8 Steel Beam Test Run Output](/output/YOLO8_results/test_run/train_batch0.jpg)
+
+*Note: Data segmentation for training was done using [Labelbox](https://labelbox.com/).*
+
+You can find the official YOLOv8 repository here:  
+[YOLOv8 on Ultralytics GitHub](https://github.com/ultralytics/ultralytics)
+
 ## Important Notes
 
 - **SAM (Segment Anything Model)** and **GroundingDINO** models are referenced and used in this project for segmentation and grounding tasks.  
@@ -22,6 +33,7 @@ This project explores methods for detecting steel beams on construction sites to
   - [GroundingDINO GitHub Repo](https://github.com/IDEA-Research/GroundingDINO)  
 
 You can download the model weights and code directly from their original sources.
+
 
 
 
